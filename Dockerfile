@@ -1,7 +1,7 @@
 FROM alpine:3.2
 MAINTAINER Chris <c@crccheck.com>
 
-ENV TCPDUMP_VERSION 4.7.4-r0
+ENV TCPDUMP_VERSION 4.9.0-r0
 
 RUN apk add --update \
       tcpdump==${TCPDUMP_VERSION}
